@@ -37,6 +37,7 @@ require_once 'Services/Twilio.php';
  */
 class org_civicrm_sms_twilio extends CRM_SMS_Provider {
 
+  CONST MAX_SMS_CHAR = 1600;
   /**
    * api type to use to send a message
    * @var	string
